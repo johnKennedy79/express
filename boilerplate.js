@@ -11,3 +11,13 @@ app.listen(8080, function () {
   console.log("App is runing on port 8080");
 });
 //node boilerplate or set command in package scripts
+
+//term command --watch server restarts server with every change
+
+// enviromental variables
+// npm install dotenv
+// const superSecretThing = ""
+// keeping api keys secret make a file .env add the file to .gitignore
+//import dotenv from "dotend"
+//dotenv.config();
+// const superSecretThing = process.env.SUPER_SECRET_KEY;//get the variable from ,env
